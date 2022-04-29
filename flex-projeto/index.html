@@ -9,20 +9,20 @@
 <body>
     <header>
         <div class="flex-container menu">
-            <div><h1>FlexTurismos</h1></div>
-            <ul class="list-items">
-                <li><a href="#quem-somos">Quem Somos</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#planos">Planos</a></li>
+            <div class="header-bold"><h1>FlexTurismos</h1></div>
+            <ul class="list-items header-bold">
+                <li class="a"><a href="#quem-somos">Quem Somos</a></li>
+                <li class="a"><a href="#servicos">Serviços</a></li>
+                <li class="a"><a href="#planos">Planos</a></li>
         </div>
         </ul>
     </header>
 
-    <div class="flex-container apresentacao">
+    <div class="flex-container apresentacao end-apresentacao">
         <div class="texto-apresentacao">
-            <h1>Flex <br>Turismos</h1>
+            <h1>Flex<br>Turismos</h1>
             <p>O melhor serviço para você!</p>
-            <a href="">Saiba Mais!</a>
+            <a href="" class="btn a"><strong>Saiba Mais!</strong></a>
         </div>
 
         <div>
@@ -33,8 +33,11 @@
     <div class="flex-container" id="quem-somos">
         <div>
             <h2>Quem somos</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            <p>Estamos no mercado há mais de 20 anos e nossa experiência é o que nos permite afirmar a excelência, compromisso e confiança que entregamos aos nossos clientes a cada novo serviço realizado.</p> 
+            <p class="textazul">Para onde você gostaria de viajar?</</p>
+            <p>Saiba que está cada vez mais fácil conhecer lugares paradisíacos com ofertas que incluem preços especiais em todos os meses do ano? Essa é uma das nossas exclusividades!</p> 
+            <p>Uma agência de viagens que já conectou milhares de pessoas à lugares incríveis. Trabalhamos com a realização de sonhos e queremos que você também realize os seus conosco. Por isso, temos serviços diferenciados e todo o suporte para fazer da sua viagem um momento inesquecível.</p> 
+            <p class="textazul">E então, vamos viajar juntos?</p>
         </div>
         <div>
             <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
@@ -51,65 +54,69 @@
                     <div class="item-servico">
                         <div><img src="./images/icon-2.png" alt="hospedagens"></div>
                         <p>Hospedagens</p>
-                        <a href="#">Comprar Agora</a>
+                        <a class="a" href="#">Comprar Agora</a>
                     </div>
                     <div class="item-servico">
                     <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
                     <p>Pacotes de viagens</p>
-                    <a href="#">Comprar Agora</a>
+                    <a class="a" href="#">Comprar Agora</a>
                     </div>
                     
                         <div class="item-servico">
                             <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
                             <p>Roteiros personalizados</p>
-                            <a href="#">Comprar Agora</a>
+                            <a  class="a" href="#">Comprar Agora</a>
                         </div>
                 </div>
         </div>
     </div>
     </div>
 
-    <div>
+    <div class="flex-container" id="planos">
+        <div><h2>Planos</h2></div>
 
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
-        </div>
-
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
-        </div>
-
-        <div>
-            <h3>Plano 3</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-                <li>Área Vip</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
+        <div class="list-planos">
+            <div class="item-plano">
+                <h3><strong>Plano 1</strong></h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                </ul>
+                <a href="#" class="btn a"><strong>Saiba Mais!</strong></a>
+            </div>
+            <div class="item-plano">
+                <h3><strong>Plano 2</strong></h3>
+                <br>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                </ul>
+                <a href="#" class="btn a"><strong>Saiba Mais!</strong></a>
+            </div>
+            <div class="item-plano">
+                <h3><strong>Plano 3</strong></h3>
+                <br>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                    <li>Área Vip</li>
+                </ul>
+                <a href="#" class="btn a"><strong>Saiba Mais!</strong></a>
+            </div>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2021 CSS Flexbox</p>
-        <p>Desenvolvido por: Seu nome aqui dev</p>
+        <div class="flex-container footer">
+            <p>&copy; 2022 CSS Flexbox</p>
+            <p>Desenvolvido por: <a href="https://github.com/isaias30silva" target="_blank" class="a"> Isaias Menezes</a></p>
+        </div>
     </footer>
 </body>
 </html>
