@@ -46,6 +46,7 @@ header {
     color: #ffff;
     font-size: 16px;
     padding: 10px;
+    margin-bottom: 45px;
 }
 
 header .list-items {
@@ -86,22 +87,32 @@ header .menu {
     margin-bottom: 10px;
 }
 
-.end-apresentacao {
-    align-items: flex-end;
-}
-
 .btn {
     background-color: #122A57;
     color: #ffff;
     text-align: center;
     border-radius: 30px;
-    width: 220px;
-    display: block;
+    width: 200px;
     text-decoration: none;
     height: 50px;
     line-height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: block;
+}
+
+.btn1 {
+    background-color: #122A57;
+    color: #ffff;
+    text-align: center;
+    border-radius: 30px;
+    width: 230px;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 #quem-somos {
@@ -132,6 +143,7 @@ header .menu {
     width: 5px;
     height: 50px;
     margin-right: 5px;
+    margin-top: 5px;
     background-color: #122A57;
     position: relative;
 }
@@ -141,14 +153,18 @@ header .menu {
     width: 90%;
 }
 
+.textgray {
+    color: rgba(0, 0, 0, 0.774);
+}
+
 #quem-somos img {
-    min-width: 420px;
+    min-width: 400px;
 }
 
 .container-externo {
     background-color: #122A57;
     width: 100%;
-    height: 30%;
+    height: 20%;
 }
 
 #servicos {
@@ -174,20 +190,25 @@ header .menu {
 }
 
 .item-servico a {
-    width: 220px;
+    width: 160px;
     background-color: #ffff;
     border-radius: 30px;
     height: 50px;
     text-align: center;
     margin-top: 20px;
+    margin-left: 20px;
     line-height: 50px;
-    padding: 9px 10px;
     color:#122A57;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
+    display: block;
 }
 
+.imgp {
+    width: 90%;
+    height: 44%;
+}
 
 .item-servico p {
     font-weight: 700;
@@ -211,6 +232,10 @@ header .menu {
 
 #planos h2 {
     font-size: 32px;
+}
+
+.azul {
+    color: #122A57;;
 }
 
 .list-planos {
@@ -247,7 +272,7 @@ header .menu {
     width: 100%;
     height: 3px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom:auto;
 }
 
 .item-plano ul {
@@ -300,6 +325,15 @@ footer .footer {
         flex-direction: column;
     }
 
+    .texto-apresentacao h1 {
+        text-align: center;
+    }
+
+    .apresentacao .texto-apresentacao {
+        text-align: center;
+    }
+    
+
     .apresentacao {
         flex-direction: column-reverse;
     }
@@ -317,6 +351,11 @@ footer .footer {
         margin: auto;
     }
 
+    .item-servico a{
+        margin-left: 145px;
+        margin-bottom: 45px;
+    }
+
     .list-servicos {
         flex-direction: column;
     }
@@ -324,6 +363,10 @@ footer .footer {
     .item-servico img {
         width: 50%;
         margin: auto;
+    }
+
+    .imgp {
+        width: auto;
     }
 
     .list-planos {
